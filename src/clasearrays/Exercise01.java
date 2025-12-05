@@ -8,7 +8,7 @@ package clasearrays;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class exercise01 {
+public class Exercise01 {
 
 	public static void main(String[] args) {
 
