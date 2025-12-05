@@ -3,7 +3,7 @@
  * para calcular la suma de todos los números y, además, averiguar el máximo y mínimo y mostrarlos por pantalla.
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 

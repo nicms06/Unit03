@@ -5,7 +5,7 @@
  * ¿Qué sucede con los valores de los elementos que no han sido inicializados?
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 

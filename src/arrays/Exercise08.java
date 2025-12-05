@@ -3,7 +3,7 @@
  * Luego pedirá un valor N y mostrará en qué posiciones del array aparece N. 
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Random;
 import java.util.Scanner;

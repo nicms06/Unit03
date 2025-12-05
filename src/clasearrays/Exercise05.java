@@ -20,8 +20,9 @@ public class Exercise05 {
 		//Creamos un array de tamaño 1000
 		int numeros[] = new int[1000];
 		
-		//Declaramos la variable num
+		//Declaramos la variable num y uncontador igualado a 0
 		int num;
+		int contador= 0;
 		
 		//Llenamos el array con números aleatorios entre 0 y 99
 		for (int i = 0; i < numeros.length; i++) {
@@ -43,8 +44,21 @@ public class Exercise05 {
 		//Primero ordenamos el array
 		Arrays.sort(numeros);
 		
-		//Ahora buscamos el array 
-		Arrays.binarySearch(numeros, num);
+		//Buscamos si el valor está en el array
+		int indice = Arrays.binarySearch(numeros, num);
+		
+		if (indice >= 0) {
+			//Ahora contamos los números en el array 
+			for (int i = 0; i < numeros.length; i++) {
+				if (numeros[i] == num) {
+					contador++;
+				}
+			}
+			System.out.println("El número " + num + " aparece " + contador + " veces");
+		}
+		else {
+			System.out.println("El número no está en la lista");
+		}
 		
 		//Imprimimos el resultado
 		

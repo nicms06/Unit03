@@ -4,7 +4,7 @@
  * A continuación, en un bucle distinto, mostrar por consola los números en el mismo orden en el que se han introducido.
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 

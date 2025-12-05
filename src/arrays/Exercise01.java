@@ -2,7 +2,7 @@
  * Crea una tabla de enteros de longitud 10 que se inicializará con números aleatorios comprendidos entre 1 y 100. 
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 

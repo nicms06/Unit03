@@ -4,7 +4,7 @@
  * junto con la palabra “par” o “impar” según proceda.
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 

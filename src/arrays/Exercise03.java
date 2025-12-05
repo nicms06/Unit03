@@ -3,7 +3,7 @@
  * los muestre en orden inverso, es decir, el primero que se introduce es el último en mostrarse.
  */
 
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 
