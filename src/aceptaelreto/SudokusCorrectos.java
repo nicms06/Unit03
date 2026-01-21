@@ -1,10 +1,10 @@
-//Problema Sudokus Correctos de Acepta el Reto: https://aceptaelreto.com/problem/statement.php?id=345&cat=14
+//Problema Sudokus Correctos de "Acepta el Reto": https://aceptaelreto.com/problem/statement.php?id=345&cat=14
 package aceptaelreto;
 
 import java.util.Scanner;
 
 public class SudokusCorrectos {
-    public static void main(String[] args) {
+     static void main(String[] args) {
         //Creamos un nuevo Scanner
         Scanner sc = new Scanner(System.in);
 
