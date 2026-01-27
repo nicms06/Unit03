@@ -79,13 +79,8 @@ public class Ejercicio3 {
         if(encontradas.length == 0){ //Si el array tiene longitud 0 mostramos un mensaje de que no se ha encontrado ninguna palabra
             System.out.println("No se ha encontrado ninguna palabra.");
         } else { //Si la longitud es mayor a 0 mostramos
-            for (int i = 0; i < encontradas.length; i++){ //recorremos el array
-                System.out.print(encontradas[i]); //Mostramos la posición actial del bucle
-
-                if (i < encontradas.length -1){ //Mientras no nos encontremos en la útlima interacción del bucle vamos a imprimir una coma
-                    System.out.print(", ");
-                }
-            }
+            String palabras = String.join(", ", encontradas);
+            System.out.println(palabras);
         }
     }
 
