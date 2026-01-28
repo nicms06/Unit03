@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class Ejercicio2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         //Creamos un nuevo Scanner
         Scanner sc = new Scanner(System.in);
 
